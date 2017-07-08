@@ -4,6 +4,14 @@ body {
     being drawn to the fullest edges of the page? */
 }
 
+div {
+  /* Debug borders for Flexbox visibility */
+  /* Remove once finished */
+  border: 1px solid black;
+}
+
+/*--------------HEADER--------------*/
+
 header {
   display: flex;
   align-items: center;
@@ -45,4 +53,12 @@ nav span {
 header a {
   color: black;
   /* This forces link text to be black */
+}
+
+/*--------------/HEADER--------------*/
+
+/*--------------CONTENT--------------*/
+
+.content {
+  padding-top: 116px;
 }
