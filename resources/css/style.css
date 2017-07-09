@@ -61,4 +61,26 @@ header a {
 
 .content {
   padding-top: 116px;
+  display: flex;
+}
+
+.columnLarge {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.columnMedium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.columnSmall {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
