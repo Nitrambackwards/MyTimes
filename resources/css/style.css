@@ -51,7 +51,7 @@ nav span {
   padding: 20px 10px;
 }
 
-header a {
+a {
   color: black;
   /* This forces link text to be black */
 }
@@ -63,10 +63,10 @@ header a {
 .content {
   padding-top: 116px;
   display: flex;
+  margin-bottom: 78px;
 }
 
 h2  {
-  /*font-family: Georgia;*/
   font-size: 24px;
   font-weight: bold;
 }
@@ -79,15 +79,10 @@ h2  {
 }
 
 .leadStory {
-  /*font-family: Georgia;
-  font-size: 17px;
-  color: black;*/
+
 }
 
 .story {
-  /*font-family: Georgia;
-  font-size: 17px;
-  color: black;*/
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -104,7 +99,13 @@ h2  {
   font-size: 40px;
   font-weight: bold;
   text-align: left;
+  display: flex;
+  align-items: center;
   color: white;
+}
+
+.imageContent span {
+  margin-left: 20px;
 }
 
 .imageContentStory1 {
@@ -116,6 +117,8 @@ h2  {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .imageContentStory2 {
@@ -127,6 +130,8 @@ h2  {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .imageContentStory3 {
@@ -138,6 +143,8 @@ h2  {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .stories {
@@ -175,4 +182,42 @@ h2  {
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+}
+
+/*--------------/CONTENT--------------*/
+
+/*--------------FOOTER--------------*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 325px;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+footer .title {
+    display: inline-block;
+    padding-right: 25px;
+    border-right: 2px solid white;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+footer nav {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+footer h1 {
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: normal;
 }
