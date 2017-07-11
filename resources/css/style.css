@@ -7,7 +7,7 @@ body {
 div {
   /* Debug borders for Flexbox visibility */
   /* Remove once finished */
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 /*--------------HEADER--------------*/
@@ -65,6 +65,12 @@ header a {
   display: flex;
 }
 
+h2  {
+  /*font-family: Georgia;*/
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .columnLarge {
   width: 630px;
   display: flex;
@@ -73,18 +79,25 @@ header a {
 }
 
 .leadStory {
-  font-family: Georgia;
+  /*font-family: Georgia;
   font-size: 17px;
-  color: black;
+  color: black;*/
 }
 
 .story {
-  font-family: Georgia;
+  /*font-family: Georgia;
   font-size: 17px;
-  color: black;
+  color: black;*/
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
-.leadStory .imageContent {
+.text-content {
+  height: 250px;
+}
+
+.imageContent {
   background-image: url(../images/img-story-main.png);
   height: 300px;
   font-family: Georgia;
@@ -127,6 +140,12 @@ header a {
   text-align: center;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
 .columnMedium {
   width: 300px;
   display: flex;
@@ -139,4 +158,21 @@ header a {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+}
+
+.newsBite h3 {
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newsBite span {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
